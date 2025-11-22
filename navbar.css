@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    background-color: #333;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+a{
+    color: white;
+    padding: 14px ;
+    text-decoration: none;
+    float: left;
+}
+img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
