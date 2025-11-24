@@ -1,0 +1,290 @@
+ body{
+    display: flex;
+    background-color:darkgray
+ }
+ .main-1{
+            text-align: center ;
+            border: 10px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            width: 400px;
+            height: 600px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            background-color:color-mix(in hsl shorter hue, color percentage, color percentage)
+        }
+           .main-1-0{
+       width: 360px;
+       padding: 16px;
+       background-color:  rgb(42, 212, 224);
+       border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+    
+
+    
+        }
+ .main-1-1{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    margin-top: 40px;
+    padding: 20px;
+    border-end-end-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-1-2{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-1-3{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-1-4{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 35px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }.main-1-5{
+    
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-1-0:hover{
+    padding: 25px;
+}
+ .main-1-1:hover{
+    color: red;
+    padding: 25px;
+
+ }
+ .main-1-2:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-1-3:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-1-4:hover{
+    color: red;
+    padding: 25px;
+
+ } 
+ .main-1-5:hover{
+    color: red;
+    padding: 25px;
+
+ }
+.main-2{
+            text-align: center ;
+            border: 10px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            width: 400px;
+            height: 600px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            background-color:color-mix(in hsl shorter hue, color percentage, color percentage)
+         }
+                .main-2-0{
+       width: 360px;
+       padding: 16px;
+       background-color:  rgb(42, 212, 224);
+       border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+    
+        }
+ .main-2-1{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    margin-top: 40px;
+    padding: 20px;
+    border-end-end-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-2-2{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-2-3{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-2-4{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 35px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }.main-2-5{
+    
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-2-0:hover{
+    padding: 25px;
+}
+ .main-2-1:hover{
+    color: red;
+    padding: 25px;
+
+ }
+ .main-2-2:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-2-3:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-2-4:hover{
+    color: red;
+    padding: 25px;
+
+ } 
+ .main-2-5:hover{
+    color: red;
+    padding: 25px;
+
+ }
+ 
+                  .main-3{
+            text-align: center ;
+            border: 10px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            width: 400px;
+            height: 600px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            background-color:color-mix(in hsl shorter hue, color percentage, color percentage)
+
+         
+
+        }
+            .main-3-0{
+       width: 360px;
+       padding: 16px;
+       background-color:  rgb(42, 212, 224);
+       border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+    
+        }
+ .main-3-1{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    margin-top: 40px;
+    padding: 20px;
+    border-end-end-radius: 50px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-3-2{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-3-3{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-3-4{
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 35px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }.main-3-5{
+    
+    width: 250px;
+    background-color: rgb(42, 212, 224);
+    padding: 20px;
+    border-end-end-radius: 50px;
+    margin-top: 40px;
+    box-shadow: 10px 10px rgb(27, 20, 20);
+
+ }
+ .main-3-0:hover{
+    padding: 25px;
+}
+ .main-3-1:hover{
+    color: red;
+    padding: 25px;
+
+ }
+ .main-3-2:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-3-3:hover{
+    color: red;
+    padding: 25px;
+
+ } .main-3-4:hover{
+    color: red;
+    padding: 25px;
+
+ } 
+ .main-3-5:hover{
+    color: red;
+    padding: 25px;
+
+ }
+ 
+ 
