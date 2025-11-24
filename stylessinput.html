@@ -6,14 +6,32 @@
     <title>Document</title>
     <style>
         .main{
-            display: flex;
+       
             /* justify-content: center; */
             /* align-items: center; */
           width: 960px;
           height: 600px;
           border-radius: 20px;
             background-color: rgb(63, 129, 214);
+              animation: spin 2s  infinite;
             
+        }
+        @keyframes spin  {
+           0%{
+                left: 0px;
+                top: 0px;
+            }
+            50%{
+                left: 760px;
+                top: 480px;
+            }
+            75%{
+                left: 760px;
+                top: 0px;
+            }
+            100%{
+                left: 0px;
+                top: 0px;}
         }
         .box-1{
             width:200px;
@@ -23,6 +41,9 @@
             animation:  2s alternate infinite;
         
         }
+        p{
+            text-align: justify;
+        }
       
     </style>
 </head>
@@ -30,5 +51,6 @@
     <div  class="main">
         <div class="box-1"></div>
     </div>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dicta accusantium suscipit sint? Commodi sint atque assumenda esse ullam ut, laudantium, fugiat deserunt cupiditate ipsam pariatur nam? Inventore veniam alias doloremque. Esse quibusdam dignissimos voluptatum sapiente molestias porro ullam, atque, quam impedit ut veniam quod accusamus a quaerat incidunt quia earum doloribus voluptatem delectus laboriosam ad fugiat quas. Doloremque ea et velit asperiores fuga, mollitia quas atque voluptatum adipisci natus? Natus veritatis enim temporibus est sapiente tenetur maiores, exercitationem eaque officia nemo expedita eveniet fugit obcaecati mollitia magnam repellat neque repudiandae ratione? Repellat harum impedit temporibus aliquam, sapiente quis minus exercitationem vel, cum natus placeat reiciendis aliquid ratione unde. Error libero velit dignissimos laborum itaque ullam quam. Consequuntur laboriosam nam, ex doloremque magnam perspiciatis qui quibusdam odio. Voluptatibus ipsa, esse perspiciatis at deleniti temporibus ea nisi? Nobis, nisi eum inventore deserunt quibusdam qui! Laboriosam enim facere consectetur, ab ipsum veritatis iure, ad placeat dignissimos esse nostrum, quo unde delectus necessitatibus consequuntur voluptates tempora! Rerum illo expedita, excepturi saepe eius aperiam vero deserunt nihil nulla, earum quo error minima placeat vel tenetur. Modi quasi maxime nobis deserunt. Pariatur error sed asperiores non? Praesentium nesciunt labore ipsa velit aliquam excepturi quibusdam.</p>
 </body>
 </html>
