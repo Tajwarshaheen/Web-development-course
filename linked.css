@@ -1,0 +1,7 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    height: 10vh;
+   
+}
