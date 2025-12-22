@@ -63,12 +63,10 @@
     background-color: green;
 }
 .btn{
-    width: 140px;
-   
-    
-    height: 50px;
+    width: 10%;    
+    height:5vh;
     background-color: orange;
-    border-radius: 14px;
+    border-radius: 10px;
 }
 .btn:hover{
     color: rgb(22, 20, 18);
@@ -102,7 +100,6 @@ h2{
     width: 100%;
     height: auto;
     justify-content: space-around;
-    background-color: brown;
 }
 .div-1{
     margin-left: 20px;
@@ -150,8 +147,8 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container-1{
-    width: 100%;
-    
+    width: 100%;    
+    justify-content: space-around;
     height: 400px;
     background-color: rgb(17, 17, 71);
 }
@@ -159,8 +156,26 @@ h1{
     display: flex;
     /* margin-left: 30px; */
     justify-content:space-around;
+    align-items: center;
     
 }
+/* child
+ */
+.child-1{
+    flex-direction: column;   
+    background-color: gray;
+    width: 20%;
+}
+.child-2{
+    flex-direction: column;
+    background-color: #ff7200;
+}
+.child-3{
+    flex-direction: column;
+    background-color: rgb(68, 68, 90);
+    width: 49%;
+}
+
 .h1-1{
     color: red;
       font-style: italic;
@@ -197,12 +212,12 @@ sup{
 }
 .h1-11{
     width: 30px;
-    color: rebeccapurple;
-    background-color: #ff7200;
+    
+    background-color: rgb(17, 17, 71);
+
     height: 30px;
     border-radius: 7px;
-   
-    background-color: green;
+    border: 1px solid #fff;
     justify-content: space-around;
 
 }
@@ -308,9 +323,116 @@ sup{
          
     }
     @media screen and (max-width:930px) {
-        .nav-2 a{
-            padding: 20px;
-            color: red;
+     .h1-1{
+        font-size: 20px;
+     }
+     .box-1 p{
+        font-size: 10px;
+     }
+     .box-1 p{
+        padding-left:19%;
+     }
+        #ana input{
+            width: 45%;
+            height:4vh;
+           margin-left: 40px;
         }
-        
+        #ana input::placeholder{
+           font-size: 15px;
+            }
+            #ana button{
+                width: 20%;
+                height: 5vh;
+            }
+            .wazir{
+                margin-top: 30vh;
+                font-size: 3vh;
+            }
+        .div-1 ,.div-2 ,.div-3,.div-4{
+            height: 60vh;
+        }
     }
+    @media screen and (max-width:900px){
+        .nav-2 a{
+            padding:10px;
+        }
+        .nav-2  h3{
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width:710px) {
+ .div-a h2{
+    font-size: 15px;
+ }
+  .div-a p{
+    font-size: 10px;
+  }
+   .div-b h2{
+    font-size: 15px;
+ }
+  .div-b p{
+    font-size: 10px;
+  } .div-c h2{
+    font-size: 15px;
+ }
+  .div-c p{
+    font-size: 10px;
+  }
+  #abcd{
+    font-size: 15px;
+  }
+  #abcd::first-letter{
+    font-size: 32px;
+  }
+  /* our developers */
+  .h1-1{
+    font-size: 15px;
+  }
+  .awarah{
+    font-size: 15px;
+  }
+  /* div-1 */
+   .div-1{
+    height: 50%;
+  }
+  .div-1 h1{
+    font-size: 15px;
+  }
+ 
+  .div-1 h2{
+    font-size: 15px;
+    }
+    .div-1 img{
+        height:50%;
+    }
+    /* div-2 */
+     .div-2{
+    height: 50%;
+  }
+    .div-2 h1{
+    font-size: 15px;
+  }
+  .div-2 h2{
+    font-size: 15px;
+    }
+  /* div-3 */
+   .div-3{
+    height: 50%;
+  }
+    .div-3 h1{
+    font-size: 15px;
+  }
+  .div-3 h2{
+    font-size: 15px;
+    }
+    /* div-4 */
+     .div-4{
+    height: 50%;
+  }
+    .div-4 h1{
+    font-size: 15px;
+  }
+  .div-4 h2{
+    font-size: 15px;
+    }
+}

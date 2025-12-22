@@ -1,17 +1,22 @@
- body{
-            margin: 0px;
+        *{
             padding: 0px;
+            margin: 0px;
         }
-        .box-1{
+        .dabba-1{
+            align-items: center;
             width: 97%;
             height: 69px;
             display: flex;
             justify-content: space-around;
         }
            .nav-2{
+            width: 95%;
+
+            height: auto;
       display: flex;
     text-decoration: none;   
-    text-transform: uppercase;
+    justify-content: space-around;
+    align-items: unset;
     font-size: 20px;
        }
        h3{
@@ -19,6 +24,7 @@
        }
       a{
     color: black;
+
     padding: 40px ;
     text-decoration: none;
     float: left;
@@ -85,12 +91,6 @@ height: 600px;
     display: flex;
   
     justify-content: space-around;
-}
-@media screen and (max-width= 1344px){
-    .nav-2{
-    color: red;
-    }
-
 }
 .charoo-1{
     width: 40%;
