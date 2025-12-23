@@ -4,8 +4,8 @@
 }
 .background-img{
     background-image: url(img/about.jpg);
-    background-size: 100% 100%;
     width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -138,4 +138,21 @@ padding-top: 4vh;
 .small-child button:hover{
     color: #fff;
     background-color: gray;
+}
+.footer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(14, 14, 110);
+}
+.footer-1, .footer-2{
+    width: 30%;
+    height: 100%;
+    background-color: #ff7200;
+}   
+.footer-3{
+    width: 35%;
+    height: 100%;
+    background-color: blue;
 }
