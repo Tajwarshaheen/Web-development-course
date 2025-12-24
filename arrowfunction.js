@@ -28,4 +28,12 @@ console.log(power(3));
 //example subtraction
 let subtract = (e,y)=> e-y;
  console.log(subtract(43,65));
+
+
+
+
+//  only function
+let functionExample = function() {  
+    console.log("This is a regular function");
+}
  

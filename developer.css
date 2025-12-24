@@ -149,22 +149,21 @@ h1{
 .container-1{
     width: 100%;    
     justify-content: space-around;
-    height: 400px;
+    height:auto;
     background-color: rgb(17, 17, 71);
 }
 .box-1{
     display: flex;
     /* margin-left: 30px; */
     justify-content:space-around;
-    align-items: center;
     
 }
 /* child
  */
 .child-1{
     flex-direction: column;   
-    background-color: gray;
     width: 20%;
+    height: auto;
 }
 .child-2{
     flex-direction: column;

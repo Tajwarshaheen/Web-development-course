@@ -18,90 +18,123 @@
   .nav-link:hover{
     color: #ff7200;
     }
+    #navbarNav .nav-link{
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .joins-us{
+    width: 20vh;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2px gray;
+    background-color: tomato;
+    transition: 0.4s ease-in-out;
+    margin-left: 10vh;
+    }
+    .joins-us:hover{
+      box-shadow: 2px 2px 2px gray;
+      color: tomato;
+      background-color: gray;
+    }
+   
+
 
 </style>
 <body>
 
   <div class="main-container">
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-  <div class="container-fluid" style="width: 195vh; height: auto; justify-content: space-around; justify-content: space-around;">
-    <a class="navbar-brand " href="#">Ecourse</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ecourses</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" style="padding: 20px;" aria-current="page" href="#">Home</a>
-        <a class="nav-link " style="padding: 20px;"   href="#">About</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Developers</a>
+        </li>
         
-        <a class="nav-link" style="padding: 20px;"  href="#">Developers</a>
-        <a class="nav-link" style="padding: 20px;"  href="#">blogs</a>
-        <a class="nav-link" style="padding: 20px;" href="#">Contant</a>
-        <a class="nav-link disabled" style="padding: 20px; "  aria-disabled="true">disabled</a>
-      </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Blogs</a>
+        </li>
+      </ul>
+    <button class="joins-us">joins</button>
+      
     </div>
   </div>
 </nav>
-</nav>
 <hr>
-<div class="background-img">    
-   <h2>About</h2>
+  <div class="background-img">    
+<h2>About</h2>
+
 </div>
 <br>
 <div class="big-div-1">
-      <div class="child-div-1">
-
-        <img src="img/about.jpg" alt="">
-      </div> 
-      <div class="child-div-2">
-        <h3>About us</h3>
-        <h3>Innovative Way To Learn</h3>
-        <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
-        <button>Learn More</button>
-      </div> 
-    
+<div class="child-div-1">
+<img src="img/about.jpg" alt="">
+</div> 
+<div class="child-div-2">
+<h3>About us</h3>
+<h3>Innovative Way To Learn</h3>
+<p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sancgubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit doclita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labodolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores jualiquyam ipsum stet</p>
+<button>Learn More</button>
+</div>  
 </div>
 <br>
 <div class="big-container">
-      <div class="big-child-1">
-              <h3>Need our Courses  </h3>
-        <p>30% off to the company iam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
-      </div> 
-      <div class="big-child-2">
-                   <div class="small-child">
-                    <h3>Sign up</h3>
-                    <input type="text" placeholder="Enter Your Name" required>
-                    <br>
-                  <input type="email" placeholder="Enter Your Email" required>
-                  <br>
-                  <button role="alert"> Sign up</button>
-                 </div> 
-                 </div>
-                </div>
-                <div class="footer">
-                  <div class="footer-1">
-                    <ul>
-                    <h3>GET IN TOUCH</h3>
-                    <li>123 Street, New York, US</li>
-                      <li>+923555165163</li>
-                      <li>shaheenbalghari804@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="footer-2">
-                    <h3>Our Courses</h3>
-                    <p>Web Development</p>
-                    <p>Mobile Development</p>
-                    <p>Marketing</p>
-                    <p>Graphic Design</p>
-                  </div>
-                  <div class="footer-3">
-                    <h3>NEW STELLER</h3>
-                    <p>Rebum labore lorem dolores kasd est, et ipsum amet </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
-                    <p>Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo</p>
-                  </div>
-                </div>
+<div class="big-child-1">
+<h3>Need our Courses  </h3>
+<p>30% off to the company iam kasd labore clita est. Diam sanctus gubergren sit rebum clita amsea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diamdiam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergdiam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
+</div> 
+<div class="big-child-2">
+<div class="small-child">
+<h3>Sign up</h3>
+<input type="text" name="text" placeholder="Enter Your Name" required>
+</br>
+<input type="email" placeholder="Enter Your Email" required>
+<br>
+<button role="alert"> Sign up</button>
+</div> 
+</div>
+</div>
+<div class="footer">
+<div class="footer-1">
+<ul>
+<h3>GET IN TOUCH</h3>               
+<li>123 Street, New York, US</li>
+ <li>+923555165163</li>
+<li>shaheenbalghari804@gmail.com</li>
+ </ul>
+ </div>
+<div class="footer-2">
+<ul>
+<h3>Our Courses</h3>
+<li>Web Development</li><li>Mobile Development</li><li>Marketing</li><li>GraphicDesili></ul>
+</div>
+<div class="footer-3">
+<ul> 
+<h3>NEW STELLER</h3>
+<li>Rebum labore lorem dolores kasd est, et ipsum amet </li>
+<li>Lorem ipsum dolor sit amet consectetur adipisicing </li>
+<li>Accu kasd sed ea duo ipsum. Dolor duo eirmod sea justo</li>
+</ul>
+<input type="text" placeholder="Enter Your name" required>
+<button>joins us</button>
 
+</div>
+</div>
+</div>
 </body>
 </html>
