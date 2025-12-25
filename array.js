@@ -16,15 +16,23 @@
 
 // }
     // question 3:
-   for(i=0;i<10;i++){
-     let arr=[1,2,3,4,5,6,7,8,9,5]
-    if(arr=1){
-    console.log("helow worldsdlkf");
-    }
-    else{
-        console.log("Hwllo World");
+//    for(i=0;i<10;i++){
+//      let arr=[1,2,3,4,5,6,7,8,9,5]
+//     if(arr=1){
+//     console.log("helow worldsdlkf");
+//     }
+//     else{
+//         console.log("Hwllo World");
+        
+//     }
+//    }    
+
+    let aww=[2,4,5,3,4,3,3,4,]
+    if(aww[3]==3){
+        console.log(" Value of arr[3] is ="[4]);
         
     }
-   }    
-
-    
+    else{
+        console.log("heljsdlfasdl;kf");
+        
+    }
