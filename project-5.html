@@ -3,144 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Login - Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-       
-        .main{
+        body {
+            background-color: #f8f9fa;
+            height: 100vh;
             display: flex;
-            position: relative;
-         
+            align-items: center;
+            justify-content: center;
         }
-        .main-1{
-            display: flex;
-        
-            
-       
-        
+        .login-card {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-     
-        .box-1{ 
-            border-top-left-radius: 74px;
-            margin-left: 100px;
-            width: 250px;
-            margin-top: 220px;
-            height: 220px;
-            background-color: red;
-            /* animation: spin 2s alternate infinite; */
-        }
-        @keyframes spin{
-            from{
-                transform: rotate(30deg);
-
-            }
-            to{
-                transform: rotate(90deg);
-            }
-        }
-            .box-2{
-            width: 400px;
-            height: 400px;
-            margin-top: 40px;
-            border-top-left-radius: 190px;
-            border-top-right-radius: 190px;
-    
-         background-color: red;
-        }    .box-3{
-            border-top-right-radius: 74px;
-
-            width: 250px;
-            margin-top: 220px;
-            height: 220px;
-            background-color: red;
-        }
-       .box-4{
-    
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-left: 200px;
-            z-index: 10;
-            bottom: 900px;
-            animation:spin 2ms  alternate infinite;
-           background-image: linear-gradient(rgb(37, 196, 45),rgb(0, 0, 0),green);
-          
-        }
-           .box-5{
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-bottom: 35px;
-
-            
-        }
-         .box-6{
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-bottom: 35px;
-
-            
-        }
-         .box-7{
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-bottom: 35px;
-
-            
-        }
-        .box-8{
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-bottom: 35px;
-
-            
-            background-image: linear-gradient(rgb(37, 196, 45),rgb(0, 0, 0),green);
-            animation:  spin 2ms alternate infinite; 
-                } .box-9{
-            width: 115px;
-            height: 115px;
-            border-radius: 50%;
-            margin-bottom: 35px;
-
-            
-                }
-                .box-2-1{
-                    width: 179px;
-                    height:178px;
-                    background-color: gray;
-                    margin-top: 220px;
-                }
     </style>
 </head>
 <body>
-     
-    <div class="main">
-         <div class="box-1"></div>
-     <div class="box-2">
-        <div class="box-2-1"></div>
-     </div>
-     <div class="box-3"></div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 d-flex justify-content-center">
+            <div class="card login-card">
+                <div class="card-body">
+                    <h3 class="text-center mb-4">Welcome Back</h3>
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                            <a href="#" class="text-decoration-none small">Forgot password?</a>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                        </div>
+                    </form>
+
+                    <div class="text-center mt-4">
+                        <p class="mb-0 text-muted">Don't have an account? <a href="#" class="text-decoration-none">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-       <div class="main-1">
-          <div class="box-4"></div>
-          <div class="box-5"></div>
-          <div class="box-6"></div>
-          <div class="box-9"></div>
-          <div class="box-7"></div>
-          <div class="box-8"></div>
+</div>
 
-
-
-       </div>
-     
-    
-
-
-
-     
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
